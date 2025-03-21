@@ -12,9 +12,11 @@ void main() {
     });
 
     test('Fahrenheit to Celsius conversion', () {
-      expect(TemperatureConverter.fahrenheitToCelsius(32), equals(0.0));
-      expect(TemperatureConverter.fahrenheitToCelsius(212), equals(100.0));
-      expect(TemperatureConverter.fahrenheitToCelsius(-40), equals(-40.0));
+      expect(TemperatureConverter.convertFahrenheitToCelsius(32), equals(0.0));
+      expect(
+          TemperatureConverter.convertFahrenheitToCelsius(212), equals(100.0));
+      expect(
+          TemperatureConverter.convertFahrenheitToCelsius(-40), equals(-40.0));
     });
   });
 }
