@@ -1,6 +1,6 @@
 class TemperatureConverter {
   /// Converts Celsius to Fahrenheit
-  static double celsiusToFahrenheit(double celsius) {
+  static double convertCelsiusToFahrenheit(double celsius) {
     return (celsius * 9 / 5) + 32;
   }
 
